@@ -250,6 +250,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  //កន្លែងទទួលទិន្នន័យរបស់ NRFL24
 		if (DataReady(1) > 0) {
 			NRF24_Receive(RxData, 9);
 			lastTime = HAL_GetTick();
